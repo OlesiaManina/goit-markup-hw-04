@@ -103,7 +103,7 @@ header {
 
 .header-contact-list {
     display: flex;
-    margin-left: 344px;
+    margin-left: 318px;
 
 
     font-weight: 500;
@@ -114,7 +114,7 @@ header {
 }
 
 .header-contact-list li + li {
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .header-nav-link {
@@ -143,6 +143,31 @@ header {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
+}
+
+.header-link-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-icon-one {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.header-icon-two {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.header-icon-one:hover,
+.header-icon-one:focus,
+.header-icon-two:hover,
+.header-icon-two:focus {
+    fill: var(--fourth-blue-color);
 }
 
 .header {
@@ -375,25 +400,31 @@ header {
     margin-right: auto;
 }
 
-.social-item {
-    /* display: block; */
-    /* width: 44px;
-    height: 44px; */
-    /* padding: 12px; */
-}
-
 .social-link {
+    /* display: block; */
     display: flex;
     align-items: center;
     justify-content: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    /* padding: 12px; */
+}
+
+.social-link:hover,
+.social-link:focus {
+   background-color: var(--fourth-blue-color);
 }
 
 .social-icon {
     width: 20px;
     height: 20px;
+    fill: currentColor;
+}
+
+.social-icon:hover,
+.social-icon:focus {
+    fill: var(--second-white-color);
 }
 
 /* REGULAR CLIENTS */
@@ -459,6 +490,64 @@ header {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--second-background-color);
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+.footer-social-div {
+    width: 206px;
+    height: 80px;
+    margin-left: 70px;
+}
+
+.social-list-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-link-two {
+    /* display: block; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* padding: 12px; */
+}
+
+.social-link-two:hover,
+.social-link-two:focus {
+   background-color: var(--fourth-blue-color);
+}
+
+.social-icon-two {
+    width: 20px;
+    height: 20px;
+    fill: var(--second-white-color);
+}
+
+.social-icon-two:hover,
+.social-icon-two:focus {
+    fill: var(--second-white-color);
+}
+
+.footer-social-text {
+    font: inherit;
+    font-weight: 700;
+    line-height: calc(16 / 14);
+    text-align: center;
+    color: var(--second-white-color);
 }
 
 .logo-footer {
