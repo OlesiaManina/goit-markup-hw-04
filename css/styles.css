@@ -249,7 +249,6 @@ header {
 
   .peculiarities-list {
     display: flex;
-    /* gap: 30px; */
   }
 
   .peculiarities-list-item {
@@ -260,11 +259,28 @@ header {
     margin-left: 30px;
   }
 
+  .peculiarities-icon-div {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    align-content: center;
+    justify-content: center;
+    background-color: var(--first-background-color);
+  }
+
+  .peculiarities-icon {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: 25px 100px;
+  }
+
 .peculiarities-header {
+    margin-top: 30px;
     font-size: 14px;
     line-height: calc(16 / 14);
     text-transform: uppercase; 
-    color: var(--third-header-color)
+    color: var(--third-header-color);
 }
 
 .peculiarities-text {
@@ -348,6 +364,94 @@ header {
   
     color: var(--primary-color);
 }
+
+.social-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-item {
+    /* display: block; */
+    /* width: 44px;
+    height: 44px; */
+    /* padding: 12px; */
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* REGULAR CLIENTS */
+
+.clients-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-header {
+    margin-bottom: 50px;
+
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    color: var(--third-header-color);
+}
+
+.clients-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.clients-item {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.clients-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 170px;
+    height: 92px;
+}
+
+.clients-icon {
+    width: 106px;
+    height: 60px;
+    fill: #AFB1B8;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+    border: 1px solid #2196F3;
+}
+
+.clients-icon:hover,
+.clients-icon:focus {
+    fill: #2196F3;
+}
+
+
 
 /* FOOTER */
 
@@ -466,3 +570,13 @@ header {
     line-height: calc(30 / 16);
     color: var(--primary-color);
 }
+
+.examples-list-link {
+    display: block;
+}
+
+.examples-list-link:hover,
+.examples-list-link:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
