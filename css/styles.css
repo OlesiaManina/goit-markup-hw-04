@@ -284,7 +284,7 @@ header {
     display: flex;
     width: 270px;
     height: 120px;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     background-color: var(--first-background-color);
   }
@@ -293,7 +293,6 @@ header {
     display: block;
     width: 70px;
     height: 70px;
-    margin: 25px 100px;
   }
 
 .peculiarities-header {
@@ -444,13 +443,6 @@ header {
     gap: 30px;
 }
 
-.clients-item {
-    width: 170px;
-    height: 92px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-}
-
 .clients-link {
     display: flex;
     align-items: center;
@@ -458,6 +450,7 @@ header {
 
     width: 170px;
     height: 92px;
+    
 }
 
 .clients-icon {
@@ -466,16 +459,12 @@ header {
     fill: #AFB1B8;
 }
 
-.clients-link:hover,
-.clients-link:focus {
-    border: #2196F3;
-}
-
-.clients-icon:hover,
-.clients-icon:focus {
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
+    border: 1px solid #2196F3;
+    border-radius: 4px;
     fill: #2196F3;
 }
-
 
 
 /* FOOTER */
