@@ -412,7 +412,7 @@ header {
 .social-icon {
     width: 20px;
     height: 20px;
-    fill: currentColor;
+    fill: #AFB1B8;
 }
 
 .social-link:hover .social-icon,
@@ -450,6 +450,8 @@ header {
 
     width: 170px;
     height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
     
 }
 
@@ -459,10 +461,14 @@ header {
     fill: #AFB1B8;
 }
 
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon {
+.clients-link:hover,
+.clients-link:focus {
     border: 1px solid #2196F3;
     border-radius: 4px;
+}
+
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
     fill: #2196F3;
 }
 
